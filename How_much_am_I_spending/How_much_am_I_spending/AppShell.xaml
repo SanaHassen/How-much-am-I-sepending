@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Shell xmlns="http://xamarin.com/schemas/2014/forms"
+       xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+       xmlns:views="clr-namespace:How_much_am_I_spending.Views"
+       x:Class="How_much_am_I_spending.AppShell">
+
+    <TabBar>
+        <ShellContent Title="Home"
+                      Icon="icon_feed.png"
+                      ContentTemplate="{DataTemplate views:HomePage}" />
+        <ShellContent Title="Monthly Breakout"
+                      Icon="icon_feed.png"
+                      ContentTemplate="{DataTemplate views:AboutPage}" />
+    </TabBar>
+</Shell>
