@@ -62,21 +62,22 @@ It's composed 3 main parts:
 
 > The form can only be submitted if the money is a float number
 
-3- The Current month breakdown: it's a list that shows all the expenses of this month only and gets updated when a new record is added for the current month 
-> The list view shows only the current month records due to the use of Linq's Where statement.
+3- The Current month breakdown: it's a list view that shows all the expenses of this month only and gets updated when a new record is added for the current month.
+
+> The list view shows only the current month records, due to the use of Linq's Where statement.
 
 
 **AboutView:**
 
 ![AboutView](images/AboutView.png)
 
-It's composed of 1  parts: 
+It's composed of 1 part: 
 
 1- A list view that shows the total expenses of all the previous months + the current month. It gets updated automatically when a new record is added to the current month.
 
-> the records are grouped by month due to the use of the Linq's GroupBy statement
+> the records are grouped by month, due to the use of the Linq's GroupBy statement.
 
-> The monthly breakdown is ordered according to the year months as well.
+> The monthly breakdown is ordered as well, due to the use of the Linq's OrderBy statement.
  
 
 [//]: # (refrences)
