@@ -49,13 +49,17 @@ Here's an explication for all views:
 
 ### Views
 The Application is composed of two views: 
+
 **HomeView:**
 
 ![HomeView](images/HomeView.png)
 
 It's composed 3 main parts: 
+
 1- the Total current month spent: it changes each month and shows the total spent money for this month only, it gets updated when a new record is added for the current month
+
 2- The Form to add new expenses: It's composed of two text inputs. 
+
 > The form can only be submitted if the money is a float number
 
 3- The Current month breakdown: it's a list that shows all the expenses of this month only and gets updated when a new record is added for the current month 
@@ -67,8 +71,11 @@ It's composed 3 main parts:
 ![AboutView](images/AboutView.png)
 
 It's composed of 1  parts: 
+
 1- A list view that shows the total expenses of all the previous months + the current month. It gets updated automatically when a new record is added to the current month.
+
 > the records are grouped by month due to the use of the Linq's GroupBy statement
+
 > The monthly breakdown is ordered according to the year months as well.
  
 
